@@ -25,8 +25,8 @@ COPY autoconf-entrypoint /
 # Metadata
 ARG VCS_REF
 ARG BUILD_DATE
-LABEL org.label-schema.vendor=Tecnativa \
+LABEL org.label-schema.vendor=Oondeo \
       org.label-schema.license=Apache-2.0 \
       org.label-schema.build-date="$BUILD_DATE" \
       org.label-schema.vcs-ref="$VCS_REF" \
-      org.label-schema.vcs-url="https://github.com/Tecnativa/docker-postgres-autoconf"
+      org.label-schema.vcs-url="https://github.com/oondeo/docker-postgres-autoconf"
